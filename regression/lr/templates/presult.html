@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}| Training Result{% endblock %}
+
+{% block content %}
+
+<div class="p-5 text-white text-center">        
+</div>
+<!-- <div class="p-5 text-white text-center">        
+</div>
+<div class="p-5 text-white text-center">        
+</div> -->
+
+
+<div class="container-fluid ">
+    <div class="row">
+        <div class="col">
+            <div class="jumbotron text-center">
+                <h1 class="display-1 " style="color:#c1bfcac8;"><b>I have Predicted !!</b></h1>
+                <div class="p-2 text-white text-center">        
+                </div>
+                
+                <!-- <p class="display-6" style="color: rgb(189, 186, 200); font-weight: 480;"></p> -->
+                <!-- <p class="display-6" style="color: rgb(0, 0, 0); font-weight: 450;">Your AI Assistant  </p> -->
+                <!-- <p class="display-6" style="color: rgb(189, 186, 200); font-weight: 450;"> Upload the Dataset of Your Choice </p>
+                <hr class="my-4">
+                <p class="lead">
+                <p class="display-6" style="color: rgb(189, 186, 200); font-weight: 450;">Discover the power of Intelligent Machines</p>
+
+                <div class="p-2 text-white text-center">        
+                </div>
+                <a class="btn btn-primary btn-lg" style="background-color: rgba(20, 2, 87, 0.774);" href="train" role="button">Let's Begin ⚡️</a>
+                </p> -->
+              </div>
+    </div> 
+    </div>
+</div> 
+
+<br>
+<br>
+<div class="container text-center">
+    <div class="card text-center">
+        <div class="alert alert-success" role="alert">
+            Success 🏆
+        </div>
+   
+        <div class="card-body">
+        <h5 class="card-title"> 🤖 : I think it belongs to 👇 </h5>
+        <p class="card-text"><h1 class="display-4">{{values}}</h1></p>
+        
+        
+    </div>
+</div>
+
+
+
+
+
+{% endblock %}
